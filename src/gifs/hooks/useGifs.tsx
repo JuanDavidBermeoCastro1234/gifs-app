@@ -32,8 +32,8 @@ export const useGifs = () => {
 
         const gif = await getGiftByQuery(query);
         setGifs(gif)
-        
-        gifsCache.current[query]=gif
+
+        gifsCache.current[query] = gif
     }
 
     return {
